@@ -1,6 +1,6 @@
+// script.mjs
 import React from 'react';
 import ReactDOM from 'react-dom';
-// script.jsx
 
 function Hello() {
   return <h1>Hello World!</h1>;
