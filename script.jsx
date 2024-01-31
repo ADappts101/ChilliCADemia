@@ -1,11 +1,11 @@
 // script.jsx
-const React = require('react');
-const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 function Hello() {
-  return React.createElement('h1', null, 'Hello World!');
+  return <h1>Hello World!</h1>;
 }
 
 const container = document.getElementById('mydiv');
 const root = ReactDOM.createRoot(container);
-root.render(React.createElement(Hello));
+root.render(<Hello />);
