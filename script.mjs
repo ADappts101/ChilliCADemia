@@ -3,9 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function Hello() {
-  return (<h1>Hello World!</h1>);
+  return React.createElement('h1', null, 'Hello World!');
 }
 
 const container = document.getElementById('mydiv');
 const root = ReactDOM.createRoot(container);
-root.render(<Hello />);
+root.render(React.createElement(Hello));
