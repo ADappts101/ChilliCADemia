@@ -1,6 +1,6 @@
-// script.jsx
-const React = require('react');
-const ReactDOM = require('react-dom');
+// script.mjs
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 function Hello() {
   return React.createElement('h1', null, 'Hello World!');
