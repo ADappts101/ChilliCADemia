@@ -1,5 +1,6 @@
 import React from 'react';
 
+export const myComponent = (() => {
 class MyComponent extends React.Component {
   // Your custom method
   myFunction = () => {
@@ -19,4 +20,4 @@ class MyComponent extends React.Component {
   }
 }
 
-export default MyComponent;
+})();
